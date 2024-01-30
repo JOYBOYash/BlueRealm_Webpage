@@ -83,6 +83,8 @@
 .maintxt{
     color: #fff;
     font-family: "Russo One", sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
   
 .textlin{
@@ -94,6 +96,10 @@
 .link2{
     color: #fff;
     padding: 5px;
+}
+.link2:hover{
+    color: pink;
+    transition: 0.5s ease-in-out;
 }
 .creditimg{
     clip-path: circle(50% at 50% 50%);

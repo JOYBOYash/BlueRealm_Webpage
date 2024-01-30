@@ -14,7 +14,7 @@
   body{
   
      /* CHANGE THIS !!  */
-      background-image: url(/Backgrounds/GameplayBG.jpg);  
+      background-image: url(/Backgrounds/WhatsApp\ Image\ 2024-01-30\ at\ 07.25.25.jpeg);  
        /* CHANGE THIS !!  */
       background-size: cover;
   }
@@ -65,7 +65,10 @@
     color: #fff;
     font-size: 60px;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 .subtxt{
     text-align: center;
@@ -74,6 +77,45 @@
     font-size: 30px;
     padding-top: 50px;
 }
-  
-  
+
+.head{
+    color: #fff;
+    font-weight: 100;
+    font-family: "Russo One", sans-serif;
+    padding: 25px;
+    font-size: 40px;
+}
+.lists{
+    padding: 10px;
+    align-items: center;
+    /* backdrop-filter: blur(15px); */
+}
+.list{
+    color: #fff;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 25px;
+}
+.head2, .l2{
+    text-align: right;
+}
+.mechanics{
+    margin-bottom: 100px;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    border-radius: 45px;
+
+}
+
+.m2{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+.list:hover{
+    font-size: 30px;
+    font-weight: 600;
+    transition: 0.5s ease-in;
+    transition: 0.5s ease-out;
+    color: #000;
+    /* -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: blue; */
+}
    /* Common CSS    */
