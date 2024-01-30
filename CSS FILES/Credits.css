@@ -1,0 +1,113 @@
+  /* Common CSS    */
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Workbench&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+  *{
+      text-decoration: none;
+      margin: 0;
+      padding: 0;
+      font-size: 20px;
+      font-family: 'Oswald', sans-serif;
+    }
+  body{
+     /* CHANGE THIS !!  */
+      background-image: url(/Backgrounds/CreditsBG.jpg);  
+       /* CHANGE THIS !!  */
+      background-size: cover;
+  }
+
+  header{
+      display: flex;
+      background: transparent;
+      height: 80px;
+      backdrop-filter: blur(5px);
+      -webkit-box-shadow: 0 0 10px #000;
+      box-shadow: 0 0 10px #000;
+      justify-content: space-between;
+      
+  }
+  .nav-links{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .link{
+      text-decoration: none;
+      font-size: 25px;
+      color: blue;
+      padding: 30px;
+  }
+  .link:hover{
+      color: #fff;
+      transition: 0.5s ease-in-out;
+  }
+  span{
+      color: #fff;
+  }  
+  h1,span{
+      padding: 10px;
+      font-size: 70px;
+      text-align: center;
+      font-family: "Russo One", sans-serif;
+  }
+  h1{
+      color: blue;
+  }
+.container{
+    position: relative;
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    text-align: left;
+    margin-top: 8%;
+}
+
+.container .card{
+    width: 308px;
+    position: relative;
+    height: 200px;
+    margin: 30px 10px;
+    text-align: center;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+    margin-top: 5%;
+}
+.maintxt{
+    color: #fff;
+    font-family: "Russo One", sans-serif;
+}
+  
+.textlin{
+    z-index: 2;
+    font-size: 25px;
+    color: blue;
+    
+}
+.link2{
+    color: #fff;
+    padding: 5px;
+}
+.creditimg{
+    clip-path: circle(50% at 50% 50%);
+    width: 450px;
+    height: 450px;
+    margin-bottom: -550px;
+    z-index: 1;
+}
+.container{
+    margin-top: -50px;
+    padding: 5px;
+}
+   /* Common CSS    */
+
+   .me{
+    color: #fff;
+   }
